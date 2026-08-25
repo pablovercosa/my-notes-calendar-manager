@@ -1,0 +1,20 @@
+{
+  "calendarFolder": "00 - Painéis/Calendário",
+  "excludedFolders": [
+    "00 - Painéis/Calendário",
+    "99 - Modelos",
+    ".obsidian"
+  ],
+  "includedProperties": [
+    "criado",
+    "atualizado",
+    "data",
+    "proxima_revisao",
+    "data_inicio",
+    "data_fim",
+    "inicio",
+    "fim",
+    "prazo",
+    "vencimento"
+  ]
+}

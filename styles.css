@@ -1,0 +1,61 @@
+.qs-calendar-badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+.qs-calendar-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  color: var(--qs-calendar-color);
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.qs-calendar-dot {
+  display: inline-block;
+  width: 0.65em;
+  height: 0.65em;
+  flex: 0 0 0.65em;
+  border-radius: 50%;
+  background-color: var(--qs-calendar-color, var(--text-muted));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--background-primary) 70%, transparent);
+  vertical-align: 0.05em;
+}
+
+.qs-calendar-count {
+  color: var(--qs-calendar-color);
+}
+
+.qs-calendar-created { --qs-calendar-color: #3b82f6; }
+.qs-calendar-updated { --qs-calendar-color: #f59e0b; }
+.qs-calendar-completed { --qs-calendar-color: #22c55e; }
+.qs-calendar-overdue { --qs-calendar-color: #ef4444; }
+.qs-calendar-due { --qs-calendar-color: #eab308; }
+.qs-calendar-cancelled { --qs-calendar-color: #92400e; }
+.qs-calendar-review { --qs-calendar-color: #8b5cf6; }
+.qs-calendar-start { --qs-calendar-color: #06b6d4; }
+.qs-calendar-end { --qs-calendar-color: #ec4899; }
+.qs-calendar-deadline { --qs-calendar-color: #d946ef; }
+.qs-calendar-task-start { --qs-calendar-color: #14b8a6; }
+.qs-calendar-scheduled { --qs-calendar-color: #60a5fa; }
+.qs-calendar-task-created { --qs-calendar-color: #64748b; }
+.qs-calendar-generic { --qs-calendar-color: #94a3b8; }
+
+.markdown-rendered table .qs-calendar-badge {
+  margin-inline: 0.08rem;
+}
+
+.markdown-rendered li > .qs-calendar-dot {
+  margin-right: 0.35rem;
+}
+
+.pdti-calendar-sync-status {
+  min-height: 1.5em;
+  color: var(--text-muted);
+}
