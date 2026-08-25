@@ -1,0 +1,31 @@
+{
+  "name": "my-notes-calendar-manager",
+  "version": "0.1.0",
+  "description": "Creates and synchronizes monthly Obsidian calendars from note metadata, tasks, and file activity.",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit && node esbuild.config.mjs production",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "obsidian",
+    "calendar",
+    "metadata",
+    "tasks"
+  ],
+  "author": "Pablo Verçosa Silva",
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "esbuild": "0.25.5",
+    "obsidian": "latest",
+    "typescript": "^5.8.3",
+    "vitest": "4.1.6"
+  }
+}

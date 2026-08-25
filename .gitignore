@@ -1,0 +1,5 @@
+.fontes/
+.memoria/
+main.js
+node_modules/
+*.map

@@ -1,9 +1,10 @@
 {
-  "id": "mynotes-calendar-manager",
-  "name": "PDTI Calendar Manager",
-  "version": "1.0.0",
-  "minAppVersion": "1.5.0",
-  "description": "Cria e sincroniza calendários mensais com datas, tarefas e alterações das notas do PDTI.",
-  "author": "Pablo Vercosa",
+  "id": "my-notes-calendar-manager",
+  "name": "My Notes Calendar Manager",
+  "version": "0.1.0",
+  "minAppVersion": "1.13.8",
+  "description": "Creates and synchronizes monthly calendars from note metadata, tasks, and file activity.",
+  "author": "Pablo Verçosa Silva",
+  "authorUrl": "https://github.com/pablovercosa",
   "isDesktopOnly": false
 }
